@@ -1,6 +1,11 @@
-# Your code goes here!
-lassie = Dog.new
-lassie.name = "Lassie"
-puts lassie.name
-7:08
-barking dog
+lass Dog
+def name=(name)
+  @name = name
+end
+def name
+  @name
+end
+def bark
+  puts "woof!"
+end
+end
